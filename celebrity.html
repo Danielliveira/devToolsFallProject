@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Our CSS-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!--Meta tag for responsive web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Images/germanyPin.png" type="image/x-icon">
+
+    <title>Fall Project</title>
+</head>
+
+<body class="">
+
+    <!--Menu for mobile-->
+    <div class="d-block d-sm-none ">
+        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions">Menu</button>
+        <!--Vertical menu hidden-->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+
+
+                        <a href="index.html">
+                            <button class=" btn btn-dark" id="v-pills-Australia-tab" data-bs-toggle="pill"
+                                data-bs-target="#HomePage" href="tourism.html" type="button" role="tab"
+                                aria-controls="v-pills-HomePage-tab" aria-selected="true">Home Page</button></a>
+
+                        <a href="contactus.html"><button class="btn btn-dark" id="v-pills-ContactUs-tab"
+                                data-bs-toggle="pill" data-bs-target="#ContactUs" type="button" role="tab"
+                                aria-controls="v-pills-FeedBack-tab" aria-selected="false">ContactUs</button></a>
+
+                        <a href="feedback.html">
+                            <button class="btn btn-dark" id="v-pills-FeedBack-tab" data-bs-toggle="pill"
+                                data-bs-target="#FeedBack" type="button" role="tab" aria-controls="v-pills-FeedBack-tab"
+                                aria-selected="false">Feedback</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of vertical menu mobile-->
+    </div>
+    <!--end of menu mobile-->
+
+
+    <!--header-->
+
+    <div class="row mt-5 mb-5">
+
+        <div class="col-12 col-sm-6 text-center ">
+            <img class="imgFlag w-50  float-sm-end" src="Images/germanyFlag.png" alt="Germany FLag">
+        </div>
+
+        <div class="col-12 col-sm-6 ">
+            <div class="h-100 d-flex justify-content-center justify-content-sm-start align-items-sm-center">
+                <h1 class=" nameHeader ">Germany</h1>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+
+
+
+    <!--Menu others displays-->
+    <div class="row col-12 d-none d-sm-block mx-2">
+        <ul class="nav justify-content-end ">
+            <li class="nav-item">
+                <a class="btn btn-dark" href="index.html">Home Page</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="history.html">History</a></li>
+                        <li><a class="dropdown-item" href="celebrety.html">Celebrity</a></li>
+                        <li><a class="dropdown-item" href="economy.html">Economy</a></li>
+                        <li><a class="dropdown-item" href="geography.html">Geography </a></li>
+                        <li><a class="dropdown-item" href="demography.html">Demography</a></li>
+                        <li><a class="dropdown-item" href="tourism.html">Tourism</a></li>
+                        <li><a class="dropdown-item" href="culture.html">Culture</a></li>
+                        <li><a class="dropdown-item" href="nationalSymbols.html">National Symbols</a></li>
+                        <li><a class="dropdown-item" href="gastronomy.html">Gastronomy</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="btn btn-dark" href="contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-dark" href="feedback.html">Feedback</a>
+            </li>
+
+        </ul>
+    </div>
+    <!--end of menu others displays-->
+
+
+    <!--Related to the content-->
+    <div class="container w-100">
+        <!--Container1 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto">
+                <img src="Images/artist bach (1).jpg" alt="Johann Sebastian Bach">
+            </div>
+
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>Johann Sebastian Bach</h1>
+                    <blockquote cite="https://en.wikipedia.org/wiki/Johann_Sebastian_Bach">
+                        (31 March 1685 – 28 July 1750) was a German composer and musician of the late Baroque period.
+                        He is known for his orchestral music such as the Brandenburg Concertos; instrumental
+                        compositions such as the Cello Suites; keyboard works such as the Goldberg Variations and The
+                        Well-Tempered Clavier; organ works such as the Schubler Chorales and the Toccata and Fugue in
+                        D minor; and vocal music such as the St Matthew Passion and the Mass in B minor. Since the
+                        19th-century Bach revival he has been generally regarded as one of the greatest composers in
+                        the history of Western music.<br><br>
+
+                        The Bach family already counted several composers when Johann Sebastian was born as the
+                        last child of a city musician in Eisenach. After being orphaned at the age of 10, he lived
+                        for five years with his eldest brother Johann Christoph, after which he continued his
+                        musical education in Lüneburg. From 1703 he was back in Thuringia, working as a musician
+                        for Protestant churches in Arnstadt and Mühlhausen and, for longer stretches of time, at
+                        courts in Weimar, where he expanded his organ repertory, and Köthen, where he was mostly
+                        engaged with chamber music. From 1723 he was employed as Thomaskantor (cantor at St Thomas's)
+                        in Leipzig. There he composed music for the principal Lutheran churches of the city, and for
+                        its university's student ensemble Collegium Musicum. From 1726 he published some of his
+                        keyboard and organ music. In Leipzig, as had happened during some of his earlier positions,
+                        he had difficult relations with his employer, a situation that was little remedied when he
+                        was granted the title of court composer by his sovereign, Augustus III, Elector of Saxony
+                        and King of Poland, in 1736. In the last decades of his life he reworked and extended many
+                        of his earlier compositions. He died of complications after eye surgery in 1750 at the age
+                        of 65.<br><br>
+
+                        Bach enriched established German styles through his mastery of counterpoint, harmonic, and
+                        motivic organisation,[4] and his adaptation of rhythms, forms, and textures from abroad,
+                        particularly from Italy and France. Bach's compositions include hundreds of cantatas, both
+                        sacred and secular. He composed Latin church music, Passions, oratorios, and motets. He
+                        often adopted Lutheran hymns, not only in his larger vocal works, but for instance also in
+                        his four-part chorales and his sacred songs. He wrote extensively for organ and for other
+                        keyboard instruments. He composed concertos, for instance for violin and for harpsichord,
+                        and suites, as chamber music as well as for orchestra. Many of his works employ the genres
+                        of canon and fugue.
+                    </blockquote>
+                </div>
+
+                <h1></h1>
+            </div>
+        </div>
+        <!--end of conteiner1 with image and text-->
+
+        <!--Conteiner2 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto ">
+                <img src="Images/artists einstein (1).jpg" alt="Albert Einstein">
+            </div>
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>Albert Einstein</h1>
+                    <blockquote cite="https://en.wikipedia.org/wiki/Albert_Einstein">
+                        (14 March 1879 – 18 April 1955) was a German-born theoretical physicist, widely
+                        acknowledged to be one of the greatest and most influential physicists of all time.
+                        Einstein is best known for developing the theory of relativity, but he also made
+                        important contributions to the development of the theory of quantum mechanics. Relativity
+                        and quantum mechanics are the two pillars of modern physics. His mass–energy equivalence
+                        formula E = mc2, which arises from relativity theory, has been dubbed "the world's most
+                        famous equation".[9] His work is also known for its influence on the philosophy of
+                        science.[10][11] He received the 1921 Nobel Prize in Physics "for his services to
+                        theoretical physics, and especially for his discovery of the law of the photoelectric
+                        effect",[12] a pivotal step in the development of quantum theory. His intellectual
+                        achievements and originality resulted in "Einstein" becoming synonymous with "genius".
+                        <br><br>
+                        In 1905, a year sometimes described as his annus mirabilis ('miracle year'), Einstein
+                        published four groundbreaking papers. These outlined the theory of the photoelectric
+                        effect, explained Brownian motion, introduced special relativity, and demonstrated
+                        mass-energy equivalence. Einstein thought that the laws of classical mechanics could no
+                        longer be reconciled with those of the electromagnetic field, which led him to develop
+                        his special theory of relativity. He then extended the theory to gravitational fields;
+                        he published a paper on general relativity in 1916, introducing his theory of gravitation.
+                        In 1917, he applied the general theory of relativity to model the structure of the
+                        universe. He continued to deal with problems of statistical mechanics and quantum
+                        theory, which led to his explanations of particle theory and the motion of molecules.
+                        He also investigated the thermal properties of light and the quantum theory of
+                        radiation, which laid the foundation of the photon theory of light.
+                        <br><br>
+                        However, for much of the later part of his career, he worked on two ultimately
+                        unsuccessful endeavors. First, despite his great contributions to quantum mechanics,
+                        he opposed what it evolved into, objecting that "God does not play dice". Second, he
+                        attempted to devise a unified field theory by generalizing his geometric theory of
+                        gravitation to include electromagnetism. As a result, he became increasingly isolated
+                        from the mainstream of modern physics.
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+        <!--end of conteiner2 with image and text-->
+
+        <!--Conteiner3 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto">
+                <img src="Images/artists beethoven (1).jpg" alt="Ludwig van Beethoven">
+            </div>
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>Ludwig van Beethoven</h1>
+                    <blockquote cite="https://en.wikipedia.org/wiki/Ludwig_van_Beethoven">
+                        German composer and pianist. Beethoven remains one of the most admired composers in the
+                        history of Western music; his works rank amongst the most performed of the classical
+                        music repertoire and span the transition from the Classical period to the Romantic era
+                        in classical music. His career has conventionally been divided into early, middle, and
+                        late periods. His early period, during which he forged his craft, is typically
+                        considered to have lasted until 1802. From 1802 to around 1812, his middle period
+                        showed an individual development from the styles of Joseph Haydn and Wolfgang Amadeus
+                        Mozart, and is sometimes characterized as heroic. During this time, he began to grow
+                        increasingly deaf. In his late period, from 1812 to 1827, he extended his innovations in
+                        musical form and expression.
+                        <br><br>
+                        Beethoven was born in Bonn. His musical talent was obvious at an early age. He was
+                        initially harshly and intensively taught by his father Johann van Beethoven. Beethoven
+                        was later taught by the composer and conductor Christian Gottlob Neefe, under whose
+                        tutelage he published his first work, a set of keyboard variations, in 1783. He found
+                        relief from a dysfunctional home life with the family of Helene von Breuning, whose
+                        children he loved, befriended, and taught piano. At age 21, he moved to Vienna, which
+                        subsequently became his base, and studied composition with Haydn. Beethoven then gained
+                        a reputation as a virtuoso pianist, and he was soon patronized by Karl Alois, Prince
+                        Lichnowsky for compositions, which resulted in his three Opus 1 piano trios
+                        (the earliest works to which he accorded an opus number) in 1795.
+                        <br><br>
+                        His first major orchestral work, the First Symphony, premiered in 1800, and his first
+                        set of string quartets was published in 1801. Despite his hearing deteriorating during
+                        this period, he continued to conduct, premiering his Third and Fifth Symphonies in 1804
+                        and 1808, respectively. His Violin Concerto appeared in 1806. His last piano concerto
+                        (No. 5, Op. 73, known as the Emperor), dedicated to his frequent patron Archduke Rudolf
+                        of Austria, was premiered in 1811, without Beethoven as soloist. He was almost
+                        completely deaf by 1814, and he then gave up performing and appearing in public. He
+                        described his problems with health and his unfulfilled personal life in two letters, his
+                        Heiligenstadt Testament (1802) to his brothers and his unsent love letter to an unknown
+                        "Immortal Beloved" (1812).
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+        <!--end of conteiner3 with image and text-->
+
+    </div>
+
+    <!--JQuery, Popper.js asn bootstrap JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--End of JQuery, Popper.js asn bootstrap JavaScript-->
+
+    <!--Tooltips JS-->
+    <script>$(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <!--End of Tooltips JS-->
+    
+</body>
+
+</html>
