@@ -23,7 +23,47 @@
     </head>
 
     <body>
-        
+
+        <!--Menu for mobile-->
+        <div class="d-block d-sm-none ">
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
+            <!--Vertical menu hidden-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+
+
+                            <a href="index.html">
+                                <button class=" btn btn-dark" id="v-pills-Australia-tab" data-bs-toggle="pill"
+                                    data-bs-target="#HomePage" href="tourism.html" type="button" role="tab"
+                                    aria-controls="v-pills-HomePage-tab" aria-selected="true">Home Page</button></a>
+
+                            <a href="contactus.html"><button class="btn btn-dark" id="v-pills-ContactUs-tab"
+                                    data-bs-toggle="pill" data-bs-target="#ContactUs" type="button" role="tab"
+                                    aria-controls="v-pills-FeedBack-tab" aria-selected="false">ContactUs</button></a>
+
+                            <a href="feedback.html">
+                                <button class="btn btn-dark" id="v-pills-FeedBack-tab" data-bs-toggle="pill"
+                                    data-bs-target="#FeedBack" type="button" role="tab"
+                                    aria-controls="v-pills-FeedBack-tab" aria-selected="false">Feedback</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of vertical menu mobile-->
+        </div>
+        <!--end of menu mobile-->
+
         <!--header-->
         <div class="row mt-5 mb-5">
             <!--FLag-->
