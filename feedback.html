@@ -123,6 +123,126 @@
         <div class="row">
             <!--Feedback image-->
             <img class= "w-25 mx-auto mt-4"src="Images/feedbackimg.jpg" alt="Feedback image">
+              <!--Feedback form-->
+              <div class=" feedback col-10 mx-auto  ">
+                <div class="">
+                    <div class="mb-3 col-10 ms-4">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 ms-4 col-6 ">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                  
+                </div>
+                <!--Checkbox and radiobutton-->
+                <div class="row d-flex justify-content-around ">
+                    <div class="col-5 border border-warning">
+                        <div class="form-check ">
+                            <p>Where did you hear from us?</p>
+                            <input class="form-check-input" type="checkbox" value="Newspaper" id="flexCheckNewspaper">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Newspaper
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="SocialMedia" id="flexCheckSocialMedia">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Social Media
+                            </label>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Indication" id="flexCheckIndication" >
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Indication
+                            </label>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Radio" id="flexChechedRadio" >
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Radio
+                            </label>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Internet" id="flexCheckInternet">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Internet
+                            </label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-5 border border-warning">
+                        <p>Did you recommend us?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Certainly!
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                                >
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                Maybe
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
+                                >
+                            <label class="form-check-label" for="flexRadioDefault4">
+                                Not sure
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5"
+                                >
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                Definitely not!
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--end of checkboxes and radiobutton-->
+
+                <div class="col-8 mx-auto ">
+                    <div class="px-4 mt-4 col-12 bg-warning">
+
+                        <label for="customRange2" class="form-label">Overall satisfaction with this website</label>
+                        <input type="range" class="form-range" min="0" max="5" id="customRange2">
+
+                        <div class="d-flex justify-content-between">
+                            <div>0</div>
+                            <div>3</div>
+                            <div>5</div>
+                            <div>7</div>
+                            <div>8</div>
+                            <div>10</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-10 mt-4">
+                    <button type="button" class="btn btn-outline-dark float-end">Send</button>
+                </div>
+            </div>
         </div>
 
 
