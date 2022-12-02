@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Our CSS-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!--Meta tag for responsive web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Images/germanyPin.png" type="image/x-icon">
+
+    <title>Fall Project</title>
+</head>
+
+<body class="">
+
+    <!--Menu for mobile-->
+    <div class="d-block d-sm-none ">
+        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions">Menu</button>
+        <!--Vertical menu hidden-->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+
+
+                        <a href="index.html">
+                            <button class=" btn btn-dark" id="v-pills-Australia-tab" data-bs-toggle="pill"
+                                data-bs-target="#HomePage" href="tourism.html" type="button" role="tab"
+                                aria-controls="v-pills-HomePage-tab" aria-selected="true">Home Page</button></a>
+
+                        <a href="contactus.html"><button class="btn btn-dark" id="v-pills-ContactUs-tab"
+                                data-bs-toggle="pill" data-bs-target="#ContactUs" type="button" role="tab"
+                                aria-controls="v-pills-FeedBack-tab" aria-selected="false">ContactUs</button></a>
+
+                        <a href="feedback.html">
+                            <button class="btn btn-dark" id="v-pills-FeedBack-tab" data-bs-toggle="pill"
+                                data-bs-target="#FeedBack" type="button" role="tab" aria-controls="v-pills-FeedBack-tab"
+                                aria-selected="false">Feedback</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of vertical menu mobile-->
+    </div>
+    <!--end of menu mobile-->
+
+
+    <!--header-->
+
+    <div class="row mt-5 mb-5">
+
+        <div class="col-12 col-sm-6 text-center ">
+            <img class="imgFlag w-50  float-sm-end" src="Images/germanyFlag.png" alt="Germany FLag">
+        </div>
+
+        <div class="col-12 col-sm-6 ">
+            <div class="h-100 d-flex justify-content-center justify-content-sm-start align-items-sm-center">
+                <h1 class=" nameHeader ">Germany</h1>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+
+
+
+    <!--Menu others displays-->
+    <div class="row col-12 d-none d-sm-block mx-2">
+        <ul class="nav justify-content-end ">
+            <li class="nav-item">
+                <a class="btn btn-dark" href="index.html">Home Page</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="history.html">History</a></li>
+                        <li><a class="dropdown-item" href="celebrety.html">Celebrity</a></li>
+                        <li><a class="dropdown-item" href="economy.html">Economy</a></li>
+                        <li><a class="dropdown-item" href="geography.html">Geography </a></li>
+                        <li><a class="dropdown-item" href="demography.html">Demography</a></li>
+                        <li><a class="dropdown-item" href="tourism.html">Tourism</a></li>
+                        <li><a class="dropdown-item" href="culture.html">Culture</a></li>
+                        <li><a class="dropdown-item" href="nationalSymbols.html">National Symbols</a></li>
+                        <li><a class="dropdown-item" href="gastronomy.html">Gastronomy</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="btn btn-dark" href="contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-dark" href="feedback.html">Feedback</a>
+            </li>
+
+        </ul>
+    </div>
+    <!--end of menu others displays-->
+
+
+    <!--Related to the content-->
+    <div class="container w-100">
+        <!--Container1 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto">
+                <img src="Images/eastFrancia.jpg" alt="East Francia emblem">
+            </div>
+
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>East Francia</h1>
+                    <blockquote cite="https://en.wikipedia.org/wiki/History_of_Germany">
+                        The concept of Germany as a distinct region in Central Europe can be traced to Julius Caesar,
+                        who referred to the unconquered area east of the Rhine associated with the Germanic tribes as
+                        "Germania", thus distinguishing it from Gaul (France). The victory of the Germanic tribes in
+                        the Battle of the Teutoburg Forest (AD 9) prevented annexation of Germania ("Magna Germania")
+                        by the Roman Empire, although the Roman provinces of Germania Superior and Germania Inferior
+                        were established along the Rhine. Following the Fall of the Western Roman Empire, the Franks
+                        conquered the other West Germanic tribes. When the Frankish Empire was divided among Charles
+                        the Great's heirs in 843, the eastern part became East Francia. In 962, Otto I became the
+                        first Holy Roman Emperor of the Holy Roman Empire, the medieval German state.
+                        <br><br>
+                        The concept of Germany as a distinct region in Central Europe can be traced to Julius Caesar,
+                        who referred to the unconquered area east of the Rhine associated with the Germanic tribes
+                        as "Germania", thus distinguishing it from Gaul (France). The victory of the Germanic tribes
+                        in the Battle of the Teutoburg Forest (AD 9) prevented annexation of Germania ("Magna
+                        Germania") by the Roman Empire, although the Roman provinces of Germania Superior and
+                        Germania Inferior were established along the Rhine. Following the Fall of the Western
+                        Roman Empire, the Franks conquered the other West Germanic tribes. When the Frankish Empire
+                        was divided among Charles the Great's heirs in 843, the eastern part became East Francia.
+                        In 962, Otto I became the first Holy Roman Emperor of the Holy Roman Empire, the medieval
+                        German state.
+                    </blockquote>
+                </div>
+
+                <h1></h1>
+            </div>
+        </div>
+        <!--end of conteiner1 with image and text-->
+
+        <!--Conteiner2 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto ">
+                <img src="Images/midages.jpg" alt="Middle ages period">
+            </div>
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>Middle ages period</h1>
+                    <blockquote cite="hhttps://en.wikipedia.org/wiki/History_of_Germany">
+                        The period of the High Middle Ages saw several important developments within the
+                        German-speaking areas of Europe. The first was the establishment of the trading
+                        conglomerate known as the Hanseatic League, which was dominated by a number of German
+                        port cities along the Baltic and North Sea coasts. The second was the growth of a
+                        crusading element within German christendom. This led to the establishment of the
+                        State of the Teutonic Order, established along the Baltic coast of what is today
+                        Estonia, Latvia, and Lithuania. This crusader state led to the Christianization of
+                        these regions, as well as an extension of Germanic culture and language eastward. Also
+                        during this period, German Emperors became embroiled in conflicts with the Catholic
+                        Church over various political issues, resulting in the Investiture Controversy.
+                        <br><br>
+                        In the Late Middle Ages, the regional dukes, princes, and bishops gained power at
+                        the expense of the emperors. Martin Luther led the Protestant Reformation within the
+                        Catholic Church after 1517, as the northern and eastern states became Protestant,
+                        while most of the southern and western states remained Catholic. The two parts of the
+                        Holy Roman Empire clashed in the Thirty Years' War (1618–1648), which was ruinous to
+                        the twenty million civilians living in both parts. The Thirty Years' War brought
+                        tremendous destruction to Germany; more than 1/4 of the population in the German states
+                        were killed by the catastrophic war. The estates of the Holy Roman Empire attained a
+                        high extent of autonomy in the Peace of Westphalia, some of them being capable of their
+                        own foreign policies or controlling land outside of the Empire, the most important being
+                        Austria, Prussia, Bavaria and Saxony. With the French Revolution and the Napoleonic Wars
+                        from 1803 to 1815, feudalism fell away by reforms and the dissolution of the Holy Roman
+                        Empire. Thereafter liberalism and nationalism clashed with reaction. The German
+                        revolutions of 1848–49 failed. The Industrial Revolution modernized the German economy,
+                        led to the rapid growth of cities and the emergence of the socialist movement in
+                        Germany. Prussia, with its capital Berlin, grew in power. German universities became
+                        world-class centers for science and humanities, while music and art flourished. The
+                        unification of Germany (excluding Austria) was achieved under the leadership of the
+                        Chancellor Otto von Bismarck with the formation of the German Empire in 1871. This
+                        resulted in the Kleindeutsche Lösung, ("small Germany solution", Germany without
+                        Austria), rather than the Großdeutsche Lösung, ("greater Germany solution", Germany
+                        with Austria). The new Reichstag, an elected parliament, had only a limited role in
+                        the imperial government. Germany joined the other powers in colonial expansion in Africa
+                        and the Pacific.
+
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+        <!--end of conteiner2 with image and text-->
+
+        <!--Conteiner3 with image and text-->
+        <div>
+            <div class="row col-7 mt-5 mx-auto">
+                <img src="Images/prussia.jpg" alt="Wolrd war">
+            </div>
+            <div class="row col-7 mt-3 mx-auto">
+                <div class=" bg-body">
+                    <h1>Wolrd war</h1>
+                    <blockquote cite="https://en.wikipedia.org/wiki/History_of_Germany">
+                        By 1900, Germany was the dominant power on the European continent and its rapidly expanding
+                        industry had surpassed Britain's while provoking it in a naval arms race. Since
+                        Austria-Hungary declared war on Serbia, Germany had led the Central Powers in World War
+                        I (1914–1918) against the Allied Powers. Defeated and partly occupied, Germany was forced
+                        to pay war reparations by the Treaty of Versailles and was stripped of its colonies and
+                        significant territory along its borders. The German Revolution of 1918–19 put an end to the
+                        German Empire and established the Weimar Republic, an ultimately unstable parliamentary
+                        democracy. In January 1933, Adolf Hitler, leader of the Nazi Party, used the economic
+                        hardships of the Great Depression along with popular resentment over the terms imposed on
+                        Germany at the end of World War I to establish a totalitarian regime. This Nazi Germany
+                        made racism, especially antisemitism, a central tenet of its policies, and became
+                        increasingly aggressive with its territorial demands, threatening war if they were not met.
+                        Germany quickly remilitarized, then annexed Austria and the German-speaking areas of
+                        Czechoslovakia in 1938. After seizing the rest of Czechoslovakia, Germany launched an
+                        invasion of Poland, which quickly grew into World War II. During the war, the Nazi regime
+                        established a systematic genocide program known as the Holocaust which killed 17 million
+                        people, including 6 million Jews (representing 2/3rd of the European Jewish population of
+                        1933),[1] Following the Allied invasion of Normandy in June, 1944, the German Army was
+                        pushed back on all fronts until the final collapse in May 1945. Under occupation by the
+                        Allies, Austria was again made a separate country, denazification efforts took place, large
+                        populations under former German-occupied territories were displaced, German territories were
+                        split up by the victorious powers. Germany spent the entirety of the Cold War era divided
+                        into the NATO-aligned West Germany and Warsaw Pact-aligned East Germany. Germans also fled
+                        from Communist areas into West Germany, which experienced rapid economic expansion, and
+                        became the dominant economy in Western Europe.
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+        <!--end of conteiner3 with image and text-->
+
+    </div>
+
+    <!--JQuery, Popper.js asn bootstrap JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--End of JQuery, Popper.js asn bootstrap JavaScript-->
+
+    <!--Tooltips JS-->
+    <script>$(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <!--End of Tooltips JS-->
+    
+</body>
+
+</html>
