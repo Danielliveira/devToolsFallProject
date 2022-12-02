@@ -24,6 +24,61 @@
 
     <body>
 
+        <!--Menu for mobile-->
+        <div class="d-block d-sm-none ">
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
+            <!--Vertical menu hidden-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+
+
+                            <a href="index.html">
+                                <button class=" btn btn-dark" id="v-pills-Australia-tab" data-bs-toggle="pill"
+                                    data-bs-target="#HomePage" href="tourism.html" type="button" role="tab"
+                                    aria-controls="v-pills-HomePage-tab" aria-selected="true">Home Page</button></a>
+
+                            <a href="contactus.html"><button class="btn btn-dark" id="v-pills-ContactUs-tab"
+                                    data-bs-toggle="pill" data-bs-target="#ContactUs" type="button" role="tab"
+                                    aria-controls="v-pills-FeedBack-tab" aria-selected="false">ContactUs</button></a>
+
+                            <a href="feedback.html">
+                                <button class="btn btn-dark" id="v-pills-FeedBack-tab" data-bs-toggle="pill"
+                                    data-bs-target="#FeedBack" type="button" role="tab"
+                                    aria-controls="v-pills-FeedBack-tab" aria-selected="false">Feedback</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of vertical menu mobile-->
+        </div>
+        <!--end of menu mobile-->
+
+        <!--header-->
+        <div class="row mt-5 mb-5">
+            <!--FLag-->
+            <div class="col-12 col-sm-6 text-center ">
+                <img class="imgFlag img-fluid p-4 float-sm-end" src="Images/germanyFlag.png" alt="Germany FLag">
+            </div>
+
+            <div class="col-12 col-sm-6 ">
+                <div class="h-100 d-flex justify-content-center justify-content-sm-start align-items-sm-center">
+                    <h1 class=" nameHeader ">Germany</h1>
+                </div>
+            </div>
+        </div>
+        <!--End Header-->
+
         <!--Carousel-->
         <div class="row d-block d-md-none col-7 mt-5 mx-auto">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -237,6 +292,44 @@
 
         </div>
         <!--End of Carousel-->
+
+        <!--Menu others displays-->
+        <div class="menubar row col-12 d-none d-sm-block mx-2">
+            <ul class="nav justify-content-end ">
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="celebrety.html">Celebrity</a></li>
+                            <li><a class="dropdown-item" href="economy.html">Economy</a></li>
+                            <li><a class="dropdown-item" href="geography.html">Geography </a></li>
+                            <li><a class="dropdown-item" href="demography.html">Demography</a></li>
+                            <li><a class="dropdown-item" href="tourism.html">Tourism</a></li>
+                            <li><a class="dropdown-item" href="culture.html">Culture</a></li>
+                            <li><a class="dropdown-item" href="nationalSymbols.html">National Symbols</a></li>
+                            <li><a class="dropdown-item" href="gastronomy.html">Gastronomy</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="contactus.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="feedback.html">Feedback</a>
+                </li>
+
+            </ul>
+        </div>
+        <!--end of menu others displays-->
+
 
         <!--Related to the content-->
         <div class="container w-100">
